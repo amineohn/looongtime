@@ -1,0 +1,15 @@
+C:\Users\AmineOUHANI\source\repos\RunApp\bin\Debug\net6.0\RunApp.exe
+C:\Users\AmineOUHANI\source\repos\RunApp\bin\Debug\net6.0\RunApp.deps.json
+C:\Users\AmineOUHANI\source\repos\RunApp\bin\Debug\net6.0\RunApp.runtimeconfig.json
+C:\Users\AmineOUHANI\source\repos\RunApp\bin\Debug\net6.0\RunApp.dll
+C:\Users\AmineOUHANI\source\repos\RunApp\bin\Debug\net6.0\ref\RunApp.dll
+C:\Users\AmineOUHANI\source\repos\RunApp\bin\Debug\net6.0\RunApp.pdb
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.AssemblyInfoInputs.cache
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.AssemblyInfo.cs
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.csproj.CoreCompileInputs.cache
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.dll
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\ref\RunApp.dll
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.pdb
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.genruntimeconfig.cache
+C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.csproj.AssemblyReference.cache
