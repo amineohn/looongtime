@@ -1,10 +1,9 @@
 ﻿using System.Diagnostics;
-using System.Security.Principal;
 
 
 static bool execute()
 {
-    Process.Start(@"\Users\AmineOUHANI\AppData\Local\Programs\Microsoft VS Code\Code.exe");
+    Process.Start(@"\Users\\" + Environment.UserName + "\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe");
     Console.WriteLine("Execute VSCode..");
     Thread.Sleep(1500);
     Process.Start(@"C:\Program Files\Google\Chrome\Application\chrome.exe");
@@ -14,7 +13,6 @@ static bool execute()
 
 static string start()
 {
-    WindowsIdentity identity = WindowsIdentity.GetCurrent();
     Console.WriteLine("Hello, World!");
 #pragma warning disable CS8600 // Conversion de littéral ayant une valeur null ou d'une éventuelle valeur null en type non-nullable.
     string winpath = Environment.GetEnvironmentVariable("windir");

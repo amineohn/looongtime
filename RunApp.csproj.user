@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Service1.cs">
+    <Compile Update="Service.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
