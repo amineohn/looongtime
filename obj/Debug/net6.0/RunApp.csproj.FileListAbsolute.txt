@@ -12,4 +12,3 @@ C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.dll
 C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\ref\RunApp.dll
 C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.pdb
 C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.genruntimeconfig.cache
-C:\Users\AmineOUHANI\source\repos\RunApp\obj\Debug\net6.0\RunApp.csproj.AssemblyReference.cache

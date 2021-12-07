@@ -1,35 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.ServiceProcess;
-using System.Text;
-using System.Threading.Tasks;
 using System.Timers;
 using Timer = System.Timers.Timer;
 
 namespace RunApp
 {
-    public partial class Service
+    public partial class Service : ServiceBase
     {
         Timer timer = new Timer();
         public Service()
         {
             InitializeComponent();
         }
-        protected void OnStart(string[] args)
+
+        protected override void OnStart(string[] args)
         {
             WriteToFile("Service is started at " + DateTime.Now);
             timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
-            timer.Interval = 5000; //number in milisecinds  
+            timer.Interval = 5000;
             timer.Enabled = true;
-        }
-        protected void OnStop()
-        {
-            WriteToFile("Service is stopped at " + DateTime.Now);
+            timer.Start();
         }
         private void OnElapsedTime(object source, ElapsedEventArgs e)
         {
